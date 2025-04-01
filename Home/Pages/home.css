@@ -1,0 +1,272 @@
+@import '../../Global Styles/global-specifications.css';
+@import '../../Global Styles/layouts.css';
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.manaus-sustentavel {
+    height: 100vh;
+    width: 99.3vw; 
+    padding: 235px 129px 294px 114px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../Imagens/home-titulo.png'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+
+.manaus-sustentavel h1 {
+    font-size: 36px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.manaus-sustentavel p {
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* -------------- Aprenda a Reciclar --------------- */
+.reciclagem {
+    height: 515px;
+    padding: 20px 120px 20px 98px;
+    margin-left: 75px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    gap: 0px;
+}
+
+.texto1 {
+    padding-right: 220px;
+    flex: 1;
+}
+
+.texto1 h2 {
+    margin-bottom: 30px;
+    font-size: 45px;
+    color: #333;
+}
+
+.texto1 h2 span {
+    display: block;
+    color: #76b900;
+}
+
+.texto1 p {
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: #666;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px 0px;
+    font-size: 22px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    background-color: #76b900;
+}
+
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn:hover {
+    background-color: #5e9700;
+}
+
+.imagem-container {
+    position: relative;
+    width: 350px;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-container img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #76b900;
+    transition: filter 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.centro-dos-icones {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+.centro-dos-icones img {
+    border-radius: 50%;
+    border: 3px solid #76b900;
+}
+
+.centro-dos-icones img:hover {
+    filter: brightness(1.3) saturate(1.3);
+    transform: scale(1.2);
+    box-shadow: 0 0 20px green;
+}
+
+.alinhados-nas-laterais:hover {
+    filter: brightness(1.4) saturate(1.4);
+    transform: scale(1.1);
+    box-shadow: 0 0 20px yellow;
+}
+
+.alinhados-na-vertical:hover {
+    filter: brightness(1.4) saturate(1.4);
+    transform: translateX(-50%) scale(1.1);
+    box-shadow: 0 0 20px yellow;
+}
+
+.vidro { top: 0; left: 50%; transform: translateX(-50%); }
+.organico { top: 20%; right: 10px; }
+.lampada { bottom: 20%; right: 10px; }
+.plastico { bottom: 0; left: 50%; transform: translateX(-50%); }
+.papel { bottom: 20%; left: 10px; }
+.metal { top: 20%; left: 10px; }
+
+/* ------------- Onde Reciclar ------------- */
+.onde-reciclar {
+    text-align: center;
+    padding: 40px 20px;
+}
+  
+.onde-reciclar h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+  
+.onde-reciclar p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+  
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+  
+.card {
+    width: 492px;
+    height: 480px;
+    background: white;
+    padding: 35px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+  .card img {
+    width: 280px; 
+    height: 280px; 
+    object-fit: contain; 
+    margin-bottom: 15px;
+}
+
+  
+.card h3 {
+    font-size: 20px;
+    color: #0A2D57;
+    margin-bottom: 10px;
+}
+  
+.card p {
+    font-size: 16px;
+    color: #555;
+}
+  
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+  
+  /* --------------- Por que Reciclar -------------- */
+.porque-reciclar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 10%;
+    background-color: #f5f5f5;
+}
+
+.reciclagem-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.texto {
+    flex: 1;
+    max-width: 500px;
+}
+
+.texto h2 {
+    font-size: 28px;
+    color: #333;
+    font-weight: bold;
+}
+
+.texto h2 span {
+    color: #76b900;
+}
+
+.texto p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0 20px;
+}
+
+.botao {
+    display: inline-block;
+    background-color: #76b900;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background-color: #5e9700;
+}
+
+.imagem {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.imagem img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1)
+}

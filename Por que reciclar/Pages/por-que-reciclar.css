@@ -1,0 +1,187 @@
+@import '../../Global Styles/global-specifications.css';
+@import '../../Global Styles/layouts.css';
+
+/* ----------- Titulo de Por que Reciclar ----------------------- */
+
+.pq-reciclar {
+    padding: 100px 200px;
+    text-align: center;
+    background-color: #F2FFD4;
+    background-image: url('../Imagens/bloco.png');
+    background-position: center;
+}
+
+.pq-reciclar h1 {
+    margin: 0;
+    display: inline-block; 
+    vertical-align: middle;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 60px;
+    color:#367743;
+}
+
+.pq-reciclar h1::first-letter {
+    font-size: 68px; 
+}
+
+/* ------------------------------- DESCRIÇÕES GERAIS ---------------------------------------- */
+h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 32px;
+    text-align: left;
+    color: #383838;
+}
+
+h3 {
+    margin-top: 10px;
+    margin-bottom: 12px; 
+    font-weight: 800;
+    font-size: 24px;
+    color: #367743;
+}
+
+p {
+    margin-bottom: 15px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: #383838; 
+}
+
+a {
+    color: #367743;
+}
+
+.texto-com-imagem {
+    max-width: 700px; 
+    padding-left: 20px; 
+    flex: 2; 
+    text-align: justify;
+    line-height: 1.8; 
+}
+
+
+/* ----------------------- BLOCO 1 - O QUE EH RECICLAGEM ------------------------------------------*/
+.oq_eh_reciclar {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    gap: 20px;
+    text-align: left;
+}
+
+.oq_eh_reciclar_img {
+    flex: 1; 
+    padding-right: 20px; 
+}
+
+.oq_eh_reciclar_img img {
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/*------------------------------BLOCO 2: POR QUE RECICLAR  -------------------------------------------- */
+
+.pq-reciclar-am {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding-left: 40px; 
+}
+
+.pq-reciclar-am h2 {
+    margin-top: 40px;
+}
+
+.pq-reciclar-am p {
+    text-align: justify;  
+}
+
+/* -------------------------------BLOCO 3 - BENEFÍCIOS DE RECICLAR --------------------------------------*/
+.benefits {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    gap: 40px;
+}
+
+.beneficios {
+    flex: 1; 
+}
+
+.beneficios img {
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(138, 133, 133); 
+}
+
+/* --------------------------------- BLOCO 4 - QUALIDADES ---------------------------------- */
+
+.quality {
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 40px; 
+}
+
+.quality_img{
+    flex: 1;
+}
+
+.quality_img img {
+    max-width: 400px; 
+    height: auto;
+    margin-top: 10px;
+    transform: translateX(20px);
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(138, 133, 133); 
+}    
+
+/*----------------------------------- BLOCO 5 - ECONOMIA -----------------------------------------*/
+.economic-impact{
+    max-width: 1200px;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    gap: 40px; 
+}
+
+.economic {
+    flex: 1; 
+}
+
+.economic img {
+    max-width: 400px; 
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px rgb(138, 133, 133); 
+}
+
+/* ------------------------------------ BLOCO 6 - resto -------------------------------------- */
+
+.incentivo {
+    max-width: 1120px; 
+    margin: 40px auto 0; 
+}
+
+.incentivo2 {
+    max-width: 900px;
+    margin: 40px auto 0; 
+    font-size: 1.2em; 
+    font-weight: bold; 
+    text-align: center; 
+    color: #367743;
+}

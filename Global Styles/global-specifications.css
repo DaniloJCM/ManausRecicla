@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body.carregando{
+    visibility: hidden;
+    opacity: 0;
+    background-color: #f5f5f5;
+}
+
+body {
+    font-family: 'Montserrat';
+    background-color: white;
+}

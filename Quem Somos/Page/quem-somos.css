@@ -1,0 +1,55 @@
+@import '../../Global Styles/global-specifications.css';
+@import '../../Global Styles/layouts.css';
+
+/* ----------- Titulo de Quem Somos ----------------------- */
+.quem-somos {
+    padding: 100px 20px;
+    text-align: center;
+    background-color: #F2FFD4;
+    background-image: url('../Imagens/Bosque-transparente.png');
+    background-size: auto 170px;
+    background-position: center bottom;
+    background-repeat: repeat-x; 
+
+}
+.quem-somos h1 {
+    margin: 0;
+    margin-top: -40px;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 60px;
+    color:#367743;
+}
+
+.quem-somos h1::first-letter {
+    font-size: 68px; 
+}
+
+/* -------------- Conteudo de Quem Somos ---------------------- */
+.conteudo-quem-somos {
+    padding: 40px 20px;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto {
+    max-width: 1250px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #333;
+    background-color: #EBFFBB;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.texto strong{
+    font-weight: 600;
+}
+
+.texto p {
+    margin-bottom: 20px;
+}

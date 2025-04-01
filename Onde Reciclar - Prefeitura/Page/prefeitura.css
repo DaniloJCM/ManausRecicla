@@ -1,0 +1,185 @@
+@import '../../Global Styles/global-specifications.css';
+@import '../../Global Styles/layouts.css';
+
+/* -------------------- Titulo -------------------- */
+.titulo-prefeitura {
+    padding: 80px 20px;
+    text-align: center;
+    background-color: #F2FFD4;
+    background-image: url('../Imagens/onde-reciclar-titulo.png');
+    background-size: auto 220px;
+    background-position: right center;
+    background-repeat: no-repeat; 
+}
+
+.titulo-prefeitura h1 {
+    margin: 0;
+    font-family: 'Anton';
+    font-weight: 400;
+    font-size: 36px;
+    color: #74991C;
+}
+
+.titulo-prefeitura h1::first-letter {
+    font-size: 40px; 
+}
+
+/* --------------- Texto introdutorio -------------- */
+.container-texto-introdutorio {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-introdutorio {
+    max-width: 1150px;
+    width: 100%;
+    padding: 40px 30px 40px 30px;
+    position: relative;
+    text-align: left;
+    font-weight: 500;
+    font-size: 1.0em;
+    line-height: 1.5;
+    color: #383838;
+}
+
+.texto-introdutorio p {
+    margin-bottom: 15px;
+}
+
+.texto-introdutorio p:last-child{
+    margin-bottom: 0px;
+}
+
+.texto-introdutorio a{
+    color: #6ba839;
+}
+
+/* ----------- Serviços da Prefeitura (descrição geral) ------------- */
+.servicos-da-prefeitura{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.0em;
+    line-height: 1.4;
+    color: #383838;
+}
+
+.servicos-da-prefeitura section{
+    max-width: 1150px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicos-da-prefeitura h2{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #6ba839;
+}
+
+.servicos-da-prefeitura p {
+    margin-bottom: 15px;
+}
+
+.servicos-da-prefeitura p:last-child{
+    margin-bottom: 0px;
+}
+
+.servicos-da-prefeitura strong{
+    font-weight: 800;
+}
+
+.servicos-da-prefeitura a{
+    color: #6ba839;
+}
+
+/* ----------- Serviços da Prefeitura (descrição geral) ------------- */
+.servicos-da-prefeitura{
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.0em;
+    line-height: 1.4;
+    color: #383838;
+}
+
+.servicos-da-prefeitura section{
+    max-width: 1150px;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.servicos-da-prefeitura h2{
+    margin-bottom: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #6ba839;
+}
+
+.servicos-da-prefeitura p {
+    margin-bottom: 15px;
+}
+
+.servicos-da-prefeitura p:last-child{
+    margin-bottom: 0px;
+}
+
+.servicos-da-prefeitura strong{
+    font-weight: 800;
+}
+
+.servicos-da-prefeitura a{
+    color: #6ba839;
+}
+
+/* ---------- Servicos da Prefeitura (Textos) ------------ */
+.texto{
+    max-width: 65%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.texto.esquerda {   
+    padding: 0px 55px 0px 30px;
+   
+}
+
+.texto.direita {
+    padding: 0px 0px 0px 120px;
+}
+
+/* ---------- Servicos da Prefeitura (Imagens) ------------ */
+.imagem{
+    max-width: 35%;
+}
+
+.imagem img{
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.imagem.direita img {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.imagem.esquerda img {
+    width: 110%;
+    margin-left: 30px;
+}
+
+/* -------------- Creditos à Semulsp ------------- */
+.creditos-semulsp{
+    margin: 60px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
